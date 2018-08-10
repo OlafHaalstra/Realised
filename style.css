@@ -91,3 +91,14 @@ body {
     from {background-position: 0 0;}
     to {background-position: var(--scale) var(--scale);}
 }
+
+.footer {
+    position: absolute;
+    bottom: 14pt;
+}
+
+.footer > a {
+    font-size: 14pt;
+    color: ccc;
+    text-decoration: none;
+}
