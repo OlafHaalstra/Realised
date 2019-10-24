@@ -225,16 +225,25 @@ body {
     }
 
     body {
-        background-color: var(--third-color);
+        background-color: var(--dark-gray);
     }
 
     .supertext {
-        background-color: var(--third-color) !important;
+        background-color: var(--dark-gray) !important;
         color: white !important;
     }
 
     .info {
-        background-color: var(--third-color) !important;
+        background-color: var(--dark-gray) !important;
+        color: white !important;
+    }
+
+    p {
+        color: white;
+    }
+
+    .page {
+        height: 35vh !important;
     }
 }
 
