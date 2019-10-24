@@ -243,7 +243,11 @@ body {
     }
 
     .page {
-        height: 35vh !important;
+        height: 100px !important;
+    }
+
+    .page-bottom {
+        height: 320px !important;
     }
 }
 
