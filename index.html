@@ -1,23 +1,186 @@
-<html>
+<!doctype html>
+
+<html lang="en">
 
 <head>
-    <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-    <title>Realised</title>
-    <link rel="shortcut icon" href="favicon.ico"/>
+    <meta charset="utf-8">
+
+    <title>Realised.</title>
+    <meta name="description" content="Realised">
+    <meta name="author" content="Realised">
+
+    <link rel="stylesheet" href="css/styles.css?20181207">
+    <link rel="stylesheet" href="css/normalize.css?801">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" rel="stylesheet">
+
+
 </head>
 
-<body>
-    <div class="content">
-        <p class="custom">[your project here]</p><p class="separator">:</p>
-        <div class="title-container">    
-            <p class="title">Realised</p>
-            <div class="bar"></div>
+<body id="home">
+    <div class="parallax">
+        <div class="rellax background" data-rellax-speed="-7">
+            <div class="triangle bottom">
+                <img src="img/dark-triangle.svg" alt="Triangle" />
+            </div>
         </div>
-        <div class="footer">
-            <a href="mailto:info@realised.nl">info@realised.nl</a>
+        <div class="rellax background" data-rellax-speed="-7">
+            <div class="triangle middle">
+                <img src="img/mid-triangle.svg" alt="Triangle" />
+            </div>
+        </div>
+        <div class="rellax background" data-rellax-speed="-1">
+            <div class="triangle top">
+                <img src="img/light-triangle.svg" alt="Triangle" />
+            </div>
         </div>
     </div>
+    <div class="page">
+        <div class="front-grid">
+            <div class="fulltext">
+                <div>
+                    <p class="promo" id="promo">Green innovation</p>
+                </div>
+                <div class="logo" id="logo">
+                    <p class="separator"></p>
+                    <p class="r">R</p>
+                    <p>ealised</p>
+                    <p class="dot">.</p>
+                </div>
+                <div class="menu">
+                    <button class="button action shadow" onclick="scrollToId('contact')">Tell us about your project</button>
+                    <button class="button shadow" onclick="scrollToId('features')">What we offer</button>
+                </div>
+            </div>
+            <!-- <div class="review rellax shadow" data-rellax-speed="3">
+                <h2>Wat klanten over ons zeggen</h2>
+                <div class="box">
+                    - Diederik en Olaf zijn super om samen mee te werken! Ze weten direct wat je wil en brengen het
+                    gehele project tot een mooi succes.
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="content features" id="features">
+        <div class="references">
+            <!-- <div class="reference shadow">
+                <div class="reference-title">
+                    <h2>Energydasboard University of Twente</h2>
+                    Februari 2019
+                </div>
+                <div class="preview">
+                    <img src="img/energydashboard.png" alt="energydashboard" />
+                </div>
+                <div class="reference-description">
+                    De UT heeft een online energie monitoringssysteem wat per gebouw het energieverbruik in beeld
+                    heeft. Hierbij kan gemakkelijk het verbruik van een specifieke maand vergeleken worden met dezelfde
+                    maand van het jaar ervoor. In gebouw Ravelijn is er een Energie Display in het atrium waarbij
+                    realtime het energieverbruik zichtbaar is.
+                </div>
+                <div class="company">
+                    <img src="img/universityoftwente.png" />
+                </div>
+            </div> -->
+            <div></div>
+            <div class="reference shadow">
+                <div class="reference-title">
+                    <h2>energydata.utwente.nl</h2>
+                </div>
+                <div class="preview">
+                    <img src="img/energydata.png" alt="energydata.utwente.nl" />
+                </div>
+                <div class="reference-description">
+                        <br />
+                        The <a href="http://energydata.utwente.nl">Energy Data platform</a> has been built with full transparency in mind and therefore opens all energy-related data up to the public. By giving everyone a chance to have insight into the data, we create more awareness among students and staff and we gather new insights into our energy consumption. This will lead to more efficient ways to do research and teach students, which helps lowering our consumption of electricity, gas, warmth and water.
+                        <br /><br />
+                        The <a href="http://energydata.utwente.nl">Energy Data platform</a> is also seeing increased internal use by Campus and Facility Management, because it has a wide range of analysis features and corrects erroneous metering data. In the future, it will also entail predefined views to compare energy consumption trends before and after taking sustainable measures.
+                        <br />
+                </div>
+                <div class="company">
+                    <img src="img/universityoftwente.png" />
+                </div>
+            </div>
+            <div></div>
+            <!-- <div class="reference shadow">
+                <div class="reference-title">
+                    <h2>Energydasboard University of Twente</h2>
+                    Juni 2018
+                </div>
+                <div class="preview">
+                    <img src="img/energydashboard.png" alt="energydashboard" />
+                </div>
+                <div class="reference-description">
+                    De UT heeft een online energie monitoringssysteem wat per gebouw het energieverbruik in beeld
+                    heeft. Hierbij kan gemakkelijk het verbruik van een specifieke maand vergeleken worden met dezelfde
+                    maand van het jaar ervoor. In gebouw Ravelijn is er een Energie Display in het atrium waarbij
+                    realtime het energieverbruik zichtbaar is.
+                </div>
+                <div class="company">
+                    <img src="img/universityoftwente.png" />
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <div class="page page-bottom" id="contact">
+        <div class="rellax-footer">
+            <div class="rellax background footer" data-rellax-speed="-5" data-rellax-percentage="0.5">
+                <div class="triangle top footer">
+                    <img src="img/light-triangle.svg" alt="Triangle" />
+                </div>
+            </div>
+            <div class="rellax background footer" data-rellax-speed="-7" data-rellax-percentage="0.5">
+                <div class="triangle bottom footer">
+                    <img src="img/dark-triangle.svg" alt="Triangle" />
+                </div>
+            </div>
+            <div class="rellax background footer" data-rellax-speed="-7" data-rellax-percentage="0.5">
+                <div class="triangle middle footer">
+                    <img src="img/mid-triangle.svg" alt="Triangle" />
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="contact">
+                <div class="supertext">Contact</div>
+                <h2 class="info">Tell us about your project</h2>
+                <!-- <input type="text" name="Full-name" size="40" class="input name shadow" autocomplete="name"
+                    aria-required="true" aria-invalid="false" placeholder="Voornaam Achternaam">
+                <input type="text" name="Email" size="40" class="input email shadow" autocomplete="email" aria-required="true"
+                    aria-invalid="false" placeholder="Email">
+                <textarea name="Project-details" cols="40" rows="10" class="textbox details shadow" aria-required="true"
+                    aria-invalid="false" spellcheck="false" data-gramm_editor="true" placeholder="Project details"></textarea> -->
+                    <p style='margin-bottom:50px;'>info@realised.nl</p>
+                <div class="send-grid">
+                    <a href="mailto:info@realised.nl?Subject=Contact%20via%20de%20website" class="button send action shadow">Contact us now!</a>
+                </div>                    
+            </div>
+        </div>
+        <button class="button shadow up" onclick="scrollToId('home')">
+            <div class="arrow"></div>
+        </button>
+    </div>
+
+    <div class="header shadow">
+        <div class="logo" id="headerlogo">
+            <img class="logo-inside" src="img/fulltext_light.svg" />
+            <!-- <img class="logo-triangles top" src="img/top.svg" />
+            <img class="logo-triangles mid" src="img/mid.svg" />
+            <img class="logo-triangles bottom" src="img/bottom.svg" />
+            <p class="separator"></p>
+            <p class="r">R</p>
+            <p>ealised</p>
+            <p class="dot">.</p> -->
+        </div>
+        <div class="header-menu">
+            <button class="button" id="menu-button" onclick="scrollToId('contact')">Tell us about your project</button>
+        </div>
+    </div>
+    <script src="js/rellax.min.js"></script>
+    <script src="js/typing.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scrolling.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax');
+    </script>
 
 </body>
 
