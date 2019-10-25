@@ -71,6 +71,10 @@ body {
     border: 1px solid var(--third-color);
 }
 
+.about {
+    width: 40%;
+}
+
 .header {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -238,16 +242,20 @@ body {
         color: white !important;
     }
 
+    .about {
+        width: 80%;
+    }
+
     p {
         color: white;
     }
 
     .page {
-        height: 220px !important;
+        height: 400px !important;
     }
 
     .page-bottom {
-        height: 320px !important;
+        height: 400px !important;
     }
 }
 

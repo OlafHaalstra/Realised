@@ -1,6 +1,6 @@
 var element = document.querySelector('#promo');
 var logo = document.querySelector('#logo');
-var words = ['Green innovation', 'Fast and secure software', 'Creative solutions', 'Great user interfaces'];
+var words = ['Sustainable innovation', 'Your Campus', 'Your Data', 'Our Future'];
 var logoVisible = false;
 
 function type(words, index) {
