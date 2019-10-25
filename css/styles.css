@@ -230,6 +230,7 @@ body {
 
     body {
         background-color: var(--dark-gray);
+        font-size: 16pt !important;
     }
 
     .supertext {
@@ -244,6 +245,7 @@ body {
 
     .about {
         width: 80%;
+        font-size: 16pt;
     }
 
     p {
